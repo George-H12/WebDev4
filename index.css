@@ -1,0 +1,157 @@
+body{
+    background-color: hsl(33, 100%, 88%, 0.30);
+    font-family: 'Pacifico', cursive;
+    overflow-x: hidden;
+}
+
+#navSection{
+    height: 20%;
+    margin-left: 20%;
+    margin-right: 20%;
+    position: sticky;
+    top: 0%;
+    margin-bottom: 100px;
+}
+
+#navSection nav{
+    background-color: hsl(0, 0%, 100%);
+    justify-content: center;
+    display: flex;
+    border-radius: 20px;
+}
+
+.imageSection {
+    display: flex;
+    justify-content: center;
+  }
+.sectionImage{
+    position: relative; 
+}
+
+
+.image-1{
+    position: absolute;
+    bottom: 0px;
+    right: -300px;
+    width: 400px;
+    border-radius: 20px;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+  }
+
+.image-1:hover{
+    transform: scale(1.1);
+    border: 5px solid black;
+}
+
+.image-2{
+    border-radius: 20px;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+  }
+.image-2:hover{
+    transform: scale(1.1);
+    border: 5px solid black;
+}
+
+.responseClick{
+    width: 150px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    position: absolute;
+    top:0px;
+    right: 0px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out; 
+}
+
+.responseClick h3{
+    color: black;
+    font-style: italic;
+}
+
+.responseClick:hover {
+    background-color: lightblue;
+    transform: scale(1.1);
+    border: 5px solid black;
+}
+
+.image-3{
+    position: absolute;
+    top: 0px;
+    left: -200px;
+    width: 400px;
+    border-radius: 20px;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+  }
+
+  .image-3:hover{
+    transform: scale(1.1);
+    border: 5px solid black;
+}
+
+.container{
+    display: flex;
+    margin-left: 7%;
+    justify-content: space-between;
+}
+
+.textContainer{
+    
+    width: 40%;
+    background-color:hsl(0, 0%, 66%, 0.1);
+    height: 80vh;
+    border-radius: 20px;
+    position: sticky;
+    top: 0%;
+
+}
+
+.textContainer h1{
+    font-size: 40px;
+}
+
+.paragraph{
+    column-count: 2;
+    column-width: 200px;
+    column-gap: 20px;
+    column-rule: 2px dotted black;
+}
+
+.paragraph p{
+    font-size: 20px;
+}
+
+.MonaLisa{
+    width: 100vh;
+    border-radius: 20px;
+}
+
+#goBack{
+    width: 150px;
+    background-color: hsl(0, 0%, 0%, 0.2);
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    position: absolute; /* Set position to absolute */
+    bottom: 20px; /* Adjust the distance from the bottom as needed */
+    right: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out; 
+}
+#goBack h3{
+    color: hsl(208, 100%, 97%);
+}
+
+#goBack:hover{
+    transform: scale(1.1);
+    background-color: hsl(300, 100%, 25%, 0.2);
+}
+#goBack:hover h3{
+    color: black;
+}
